@@ -5,6 +5,9 @@ class App < Sinatra::Base
   get '/food_form' do
     erb :food_form
   end
-
-  <form method="POST" action="/food">
+  
+  
+  post '/food' do
+ 
+end
 end
